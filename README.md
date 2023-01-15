@@ -2,8 +2,4 @@
 
 npm install --save prop-types
 
-```
-
-```
-
 import PropTypes from 'prop-types';
