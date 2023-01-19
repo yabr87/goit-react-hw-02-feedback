@@ -13,7 +13,8 @@ Section.propTypes = {
 };
 
 Section.defaultProps = {
-  // bla: 'test',
+  title: PropTypes.string.isRequired,
+  children: PropTypes.element,
 };
 
 export default Section;

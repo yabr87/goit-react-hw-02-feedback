@@ -34,12 +34,9 @@ const FeedbackOptions = ({ onLeaveFeedback }) => {
     </ul>
   );
 };
-FeedbackOptions.propTypes = {
-  // bla: PropTypes.string,
-};
 
-FeedbackOptions.defaultProps = {
-  // bla: 'test',
+FeedbackOptions.propTypes = {
+  onLeaveFeedback: PropTypes.func,
 };
 
 export default FeedbackOptions;

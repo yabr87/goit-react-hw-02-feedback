@@ -4,11 +4,7 @@ import PropTypes from 'prop-types';
 const Notification = ({ message }) => <p className="notification">{message}</p>;
 
 Notification.propTypes = {
-  // bla: PropTypes.string,
-};
-
-Notification.defaultProps = {
-  // bla: 'test',
+  message: PropTypes.string.isRequired,
 };
 
 export default Notification;

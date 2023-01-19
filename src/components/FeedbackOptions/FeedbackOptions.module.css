@@ -2,8 +2,7 @@
   display: flex;
   gap: 10px;
 }
-.btnItem {
-}
+
 .btn {
   padding: 3px 10px;
   font-family: inherit;
